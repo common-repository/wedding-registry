@@ -1,0 +1,14 @@
+/*===================================================================*/
+/* CUSTOM BUTTON STYLE
+/*===================================================================*/
+
+i.mce-i-bean_registry_button {
+	background-image: url(../images/icon.png) !important
+}
+
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+	i.mce-i-bean_registry_button {
+		background-image: url(../images/icon@2x.png) !important;
+		background-size: 20px 20px;
+	}
+}

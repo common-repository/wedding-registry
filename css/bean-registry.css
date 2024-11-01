@@ -1,0 +1,30 @@
+/*===================================================================
+ 
+	Plugin Name: 	 Bean Registry
+	Plugin URI:     http://themebeans.com/plugin/bean-registry
+	Author:         ThemeBeans
+	Author URI:     http://themebeans.com
+	Version:        1.0
+ 
+/*===================================================================*/
+
+.wedding-registry-link {
+	float: left;
+	width: 33.33%;
+	-webkit-transition: opacity .2s;
+	   -moz-transition: opacity .2s;
+	    -ms-transition: opacity .2s; 	   
+	     -o-transition: opacity .2s;
+}
+
+.wedding-registry-link:hover {
+	opacity: .50;
+}
+
+@media only screen and (max-width : 1700px) {
+	.wedding-registry-link { width: 50%; }
+}
+
+@media only screen and (max-width : 414px) {
+	.wedding-registry-link { width: 100%; }
+}
